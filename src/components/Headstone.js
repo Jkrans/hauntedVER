@@ -1,12 +1,12 @@
 import React from 'react'
-import turkey from '../images/turkey.png'
+import Grave from '../images/grave.png'
 
 const Headstone = (props) => {
-  const { isGlowing } = props;
+    const { isGlowing } = props;
   return (
     <div>
-      <img src={turkey}></img>
-      <div className={isGlowing ? 'headstone-glow' : ''}></div>
+        <img src={Grave}></img>
+        <div className={isGlowing ? 'headstone-glow' : ''}></div>
     </div>
   )
 }
